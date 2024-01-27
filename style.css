@@ -6,17 +6,18 @@
 }
 
 body {
-  background: #222;
+  background: rgb(206, 219, 255)fff;
 }
 
-.card {
+.card-current-weather {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, red, yellow);
+  background: linear-gradient(135deg, #eff1f7, #092266);
   color: #fff;
   margin: 100px auto 0;
   padding: 40px 35px;
   text-align: center;
+  border-radius: 15px;
 }
 
 .search {
@@ -101,3 +102,8 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+.card-forecasted-weather{
+ 
+}
+
